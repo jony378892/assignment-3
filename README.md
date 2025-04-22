@@ -1,4 +1,4 @@
-# Assignment 3 - School Management API
+# School Management API
 
 This project is a Node.js-based RESTful API for managing schools. It allows users to add schools to a database and fetch a list of schools sorted by proximity to a given location.
 
@@ -12,8 +12,6 @@ This project is a Node.js-based RESTful API for managing schools. It allows user
 - **Node.js**: Backend runtime.
 - **Express.js**: Web framework for building APIs.
 - **MySQL**: Relational database for storing school data.
-- **Axios**: HTTP client for making API requests.
-- **dotenv**: For managing environment variables.
 
 ## Prerequisites
 
@@ -85,14 +83,14 @@ This project is a Node.js-based RESTful API for managing schools. It allows user
       "name": "School A",
       "address": "Address A",
       "latitude": 12.9718,
-      "longitude": 77.5947,
+      "longitude": 77.5947
     },
     {
       "id": 2,
       "name": "School B",
       "address": "Address B",
       "latitude": 12.972,
-      "longitude": 77.595,
+      "longitude": 77.595
     }
   ]
   ```
